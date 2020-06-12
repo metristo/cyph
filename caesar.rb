@@ -15,7 +15,7 @@ def cyph(phrase, shift)
             ltr = ltr
         end
     end
-
+p "last step"
 end
 
 
@@ -27,12 +27,8 @@ shift = gets.strip.to_i
 
 cyph(phrase, shift)
 
+phrase.map! do |ltr|
+    ltr.chr
 
-
-
-
-
-
-
-    
-    
+end
+p "Your encrypted phrase is #{phrase.join('')}!"
