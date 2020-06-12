@@ -15,7 +15,6 @@ def cyph(phrase, shift)
             ltr = ltr
         end
     end
-p "last step"
 end
 
 
